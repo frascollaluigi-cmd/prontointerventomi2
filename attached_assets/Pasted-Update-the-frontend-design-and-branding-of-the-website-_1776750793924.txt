@@ -1,0 +1,145 @@
+Update the frontend design and branding of the website with a premium, modern, high-conversion style for an emergency home service in Milan.
+
+IMPORTANT:
+The result must look clean, professional, and high-end. Avoid cheap effects, no clutter, no outdated graphics.
+
+----------------------------------------
+1) LOGO (REPLACE COMPLETELY)
+----------------------------------------
+
+Create a new square logo with these specifications:
+
+- Main letters: "PIM"
+- Meaning: Pronto Intervento Milano
+- Style: modern, minimal, bold, professional
+- Background: dark (black or very dark blue)
+- Letters:
+  - P and I in white
+  - M in strong red
+- No lightning icons, no electrician clichés
+- Subtle circular or geometric accent allowed, but minimal
+
+Below the letters add:
+
+PRONTO INTERVENTO MILANO 
+ELETTROTECH
+
+- Font: clean sans-serif
+- "INTERVENTO" in red, the rest in white
+- "ELETTROTECH" smaller and elegant
+
+The logo must look like a serious company, not a cheap service.
+
+----------------------------------------
+2) HEADER
+----------------------------------------
+
+- Left: new PIM logo
+- Right:
+  - Phone number clearly visible: 340 570 7813
+  - Red button: "INTERVENTO SUBITO"
+  - Green button: "CHIAMA ORA"
+
+Phone must be clickable:
+tel:+393405707813
+
+----------------------------------------
+3) HERO SECTION (MAIN BLOCK)
+----------------------------------------
+
+Replace headline with:
+
+"Elettricista urgente a Milano in 90 minuti"
+
+Subheadline:
+
+"Intervento rapido • Prezzo chiaro • Tecnici verificati • Milano e provincia"
+
+Buttons:
+
+- Primary (red): "INTERVENTO SUBITO"
+- Secondary (green): "CHIAMA ORA 340 570 7813"
+
+Make buttons large, highly visible, and optimized for mobile.
+
+----------------------------------------
+4) COLORS (VERY IMPORTANT)
+----------------------------------------
+
+- Background: dark premium gradient (black / dark blue)
+- Red: strong, for urgency and main CTA
+- Green: for call button
+- Orange: ONLY for highlights like “90 minuti”
+- White: main text
+
+Avoid random colors.
+
+----------------------------------------
+5) TRUST + URGENCY SECTION
+----------------------------------------
+
+Add below hero:
+
+- "Arrivo medio 60–90 min"
+- "Risposta entro 5 min"
+- "Disponibili H24"
+- "Tecnici verificati"
+
+Add also:
+
+"Disponibile ORA a Milano"
+
+----------------------------------------
+6) SOCIAL PROOF
+----------------------------------------
+
+Add testimonials:
+
+★★★★★ "Arrivato in meno di un’ora, problema risolto subito" 
+★★★★★ "Tecnico puntuale e prezzo chiaro" 
+★★★★★ "Servizio rapido e professionale"
+
+----------------------------------------
+7) MOBILE OPTIMIZATION (CRITICAL)
+----------------------------------------
+
+Add a sticky bottom bar on mobile with:
+
+- Green button: "Chiama subito"
+- Red button: "Richiedi intervento"
+
+Make it always visible.
+
+----------------------------------------
+8) SERVICES SECTION
+----------------------------------------
+
+Create clean cards:
+
+- Elettricista
+- Citofoni
+- Antenne
+- Allarmi
+- Automazione cancelli
+
+Each with short description and CTA.
+
+----------------------------------------
+9) STYLE RULES
+----------------------------------------
+
+- No clutter
+- No old-style gradients or effects
+- No generic icons
+- Clean spacing
+- Modern typography
+- High contrast for readability
+- Focus on conversion (calls)
+
+----------------------------------------
+
+Final goal:
+The website must feel like a premium emergency service and push the user to CALL immediately.
+
+
+

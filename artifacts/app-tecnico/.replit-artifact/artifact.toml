@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/app-tecnico/"
+title = "ProntoIntervento Tecnico"
+version = "1.0.0"
+id = "artifacts/app-tecnico"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/app-tecnico/" ]
+localPort = 23994
+
+[services.development]
+run = "pnpm --filter @workspace/app-tecnico run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/app-tecnico", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/app-tecnico", "run", "serve" ]
+
+[services.env]
+PORT = "23994"
+BASE_PATH = "/app-tecnico/"

@@ -1,0 +1,211 @@
+
+Scegli un tipo di destinazione
+Configura la tua destinazione
+Inizia selezionando gli eventi che vuoi ascoltare
+Stripe invierà questi eventi alla tua destinazione.
+Eventi da
+Scegli da quali account questa destinazione deve monitorare: il tuo account o altri account che gestisci, inclusi gli account v1 e v2. Ulteriori informazioni sugli webhook degli account Connect e v2.
+
+Il tuo account
+Ricevi eventi dalle risorse in questo account.
+
+Account connessi e v2
+Ricevi eventi che si attivano nel contesto degli account connessi e degli account v2.
+Versione API
+
+Versione API
+2026-03-25.dahlia
+Eventi
+
+Tutti gli eventi
+Eventi selezionati
+0
+Trova evento per nome o descrizione...
+Seleziona tutto
+
+
+Account Link
+v2
+1 evento
+
+Account Person
+v2
+3 eventi
+
+Account
+4 eventi
+
+Account
+v2
+13 eventi
+
+Balance Settings
+1 evento
+
+Balance
+1 evento
+
+Batch Job
+v2
+10 eventi
+
+Billing Meter
+2 eventi
+
+Billing Portal
+3 eventi
+
+Billing
+8 eventi
+
+Capability
+1 evento
+
+Cash Balance
+1 evento
+
+Charge
+13 eventi
+
+Checkout
+4 eventi
+
+Climate
+7 eventi
+
+Coupon
+3 eventi
+
+Credit Note
+3 eventi
+
+Customer Cash Balance Transaction
+1 evento
+
+Customer
+21 eventi
+
+Entitlements
+1 evento
+
+File
+1 evento
+
+Financial Connections
+9 eventi
+
+Health
+v2
+1 evento
+
+Identity
+6 eventi
+
+Invoice Payment
+1 evento
+
+Invoice
+17 eventi
+
+Invoiceitem
+2 eventi
+
+Issuing Authorization
+3 eventi
+
+Issuing Card
+2 eventi
+
+Issuing Cardholder
+2 eventi
+
+Issuing Dispute
+6 eventi
+
+Issuing Personalization Design
+4 eventi
+
+Issuing Token
+2 eventi
+
+Issuing Transaction
+3 eventi
+
+Mandate
+1 evento
+
+Payment Intent
+8 eventi
+
+Payment Link
+2 eventi
+
+Payment Method
+4 eventi
+
+Payout
+6 eventi
+
+Person
+3 eventi
+
+Plan
+3 eventi
+
+Price
+3 eventi
+
+Product
+3 eventi
+
+Promotion Code
+2 eventi
+
+Quote
+5 eventi
+
+Radar
+2 eventi
+
+Refund
+3 eventi
+
+Reporting
+2 eventi
+
+Reserve
+7 eventi
+
+Review
+2 eventi
+
+Setup Intent
+5 eventi
+
+Sigma
+1 evento
+
+Source
+7 eventi
+
+Subscription Schedule
+7 eventi
+
+Tax Rate
+2 eventi
+
+Tax
+1 evento
+
+Terminal
+3 eventi
+
+Test Helpers
+5 eventi
+
+Topup
+5 eventi
+
+Transfer
+3 eventi
+Annulla

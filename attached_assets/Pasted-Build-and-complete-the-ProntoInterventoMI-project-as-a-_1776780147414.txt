@@ -1,0 +1,259 @@
+Build and complete the ProntoInterventoMI project as a real working emergency service web app for Milan and province.
+
+IMPORTANT:
+This must be a REAL implementation, not a mockup, not a sandbox-only demo, not fake UI.
+Do not create placeholder-only screens.
+Use the current project and make it production-like and functional.
+
+----------------------------------------
+PROJECT GOAL
+----------------------------------------
+
+ProntoInterventoMI is an emergency home service platform for Milan and province.
+
+Main services:
+- Elettricista
+- Citofoni
+- Antenne
+- Allarmi
+- Automazione cancelli
+
+Main business goal:
+- receive urgent customer requests
+- allow customer to describe the problem quickly
+- notify the owner instantly
+- push the customer to call immediately
+- allow payment of intervention deposit/exit fee
+
+----------------------------------------
+BRANDING
+----------------------------------------
+
+Brand name:
+ProntoInterventoMI
+
+Secondary text:
+by Elettrotech
+
+Replace current branding with:
+- circular premium logo
+- main letters: PIM
+- P and I in dark navy
+- M in strong red
+- circular logo design
+- Duomo di Milano clearly visible inside the logo background
+- add:
+  PRONTO INTERVENTO MILANO
+  ELETTROTECH
+
+The Duomo must be recognizable, not invisible.
+
+----------------------------------------
+FRONTEND DESIGN
+----------------------------------------
+
+Redesign the client-facing frontend with a premium, clean, high-conversion style.
+
+Use:
+- light premium background (not too dark)
+- white / light grey / light blue tones
+- strong red for urgency CTA
+- green for call CTA
+- orange only for highlights like “90 minuti”
+
+Header:
+- logo on left
+- phone number visible and clickable: 340 570 7813
+- red button: INTERVENTO SUBITO
+- green button: CHIAMA ORA
+
+Hero section:
+Headline:
+"Elettricista urgente a Milano in 90 minuti"
+
+Subheadline:
+"Intervento rapido • Prezzo chiaro • Tecnici verificati • Milano e provincia"
+
+Buttons:
+- red: INTERVENTO SUBITO
+- green: CHIAMA ORA 340 570 7813
+
+Make phone buttons clickable:
+tel:+393405707813
+
+Add urgency/trust section:
+- Arrivo medio 60–90 min
+- Risposta entro 5 min
+- Disponibili H24
+- Tecnici verificati
+- Disponibile ORA a Milano
+
+Add social proof section:
+- ★★★★★ Arrivato in meno di un’ora, problema risolto subito
+- ★★★★★ Tecnico puntuale e prezzo chiaro
+- ★★★★★ Servizio rapido e professionale
+
+Add services cards:
+- Elettricista
+- Citofoni
+- Antenne
+- Allarmi
+- Automazione cancelli
+
+Each card needs:
+- icon
+- short description
+- CTA
+
+Mobile:
+- add sticky bottom bar
+- green button: Chiama subito
+- red button: Richiedi intervento
+
+----------------------------------------
+REQUEST FORM
+----------------------------------------
+
+Create a real working request form with these fields:
+
+- Nome e cognome
+- Telefono (required)
+- Indirizzo
+- Urgenza (Urgente / Oggi / Non urgente)
+- Descrizione del problema (text area)
+
+Also add:
+
+1) Voice description:
+- button: "Registra audio"
+- allow customer to record or attach a short voice message
+- max 30 seconds
+- allow playback before sending
+
+2) Photo upload:
+- button: "Aggiungi foto"
+- allow multiple photos
+- mobile camera or gallery
+
+Form UX:
+- large fields
+- mobile-first
+- easy and fast
+- confirmation message after submit:
+  "Richiesta inviata"
+
+Do not reload the page after submit.
+
+----------------------------------------
+NOTIFICATIONS
+----------------------------------------
+
+When the customer submits the form, send the request to BOTH:
+
+1) Telegram bot
+2) Email archive
+
+Email destination:
+info@prontointerventomi.it
+
+Telegram message format:
+
+🚨 NUOVA RICHIESTA
+
+👤 Nome: {name}
+📞 Telefono: {phone}
+📍 Indirizzo: {address}
+⚡ Urgenza: {urgency}
+
+📝 Problema:
+{description}
+
+If present, include:
+- audio file
+- photos
+
+Email subject:
+Nuova richiesta - ProntoInterventoMI
+
+Email body:
+same structured content as Telegram
+
+Attachments:
+- audio
+- images
+
+IMPORTANT:
+Telegram is for immediate alert.
+Email is for backup and archive.
+
+----------------------------------------
+PAYMENTS
+----------------------------------------
+
+Add a real payment section using Stripe payment link approach first.
+
+Do NOT overcomplicate with full Stripe custom checkout if not necessary.
+
+Create:
+- a button after request confirmation:
+  "Paga uscita e conferma intervento"
+
+Use a configurable Stripe payment link placeholder in code/env.
+
+The UI must support:
+- intervention deposit / exit fee payment
+- clear pricing language
+
+Suggested initial text:
+"Per confermare l’intervento, effettua il pagamento dell’uscita."
+
+Make this modular so it can later be replaced with full Stripe Checkout API.
+
+----------------------------------------
+TECHNICAL REQUIREMENTS
+----------------------------------------
+
+- Must be a real functional implementation
+- Do not leave everything in artifacts/mockup only
+- Create actual working frontend and backend routes
+- Use real project files
+- Make code organized and readable
+- Do not remove existing useful functionality
+- Add environment variables where needed
+
+Need support for:
+- Telegram bot token
+- Telegram chat ID
+- Email sending configuration
+- Stripe payment link or Stripe config
+- file upload handling
+
+If needed, add:
+- backend route for form submit
+- backend route for file handling
+- backend route for sending Telegram/email
+
+----------------------------------------
+OUTPUT
+----------------------------------------
+
+After implementation:
+1. show me which files were changed
+2. explain where to place:
+   - Telegram bot token
+   - Telegram chat ID
+   - email config
+   - Stripe payment link
+3. make sure app runs without agent-only dependencies
+
+Tone of the website:
+practical, urgent, trustworthy, premium, local to Milan.
+
+Avoid:
+- generic startup tone
+- cluttered UI
+- fake placeholder behavior
+- dark depressing design
+- cheap effects
+
+

@@ -1,0 +1,136 @@
+Implement a complete emergency electrician booking and payment system.
+
+IMPORTANT:
+This is a real production flow, not a mockup.
+
+----------------------------------------
+PAYMENT LOGIC (CRITICAL)
+----------------------------------------
+
+Replace current Stripe payment with authorization-only flow:
+
+- Use Stripe PaymentIntent or Checkout
+- Set capture_method = manual
+- Do NOT charge immediately
+
+Flow:
+1. User confirms intervention
+2. Card is pre-authorized only (hold)
+3. After intervention:
+   - If customer pays by card → capture payment
+   - If customer pays cash → cancel authorization
+
+----------------------------------------
+PRICING LOGIC
+----------------------------------------
+
+Dynamic pricing based on time:
+
+Weekdays 08:00–17:00:
+- Standard €70
+- Urgente €120
+
+Evening / night / weekends:
+- €200 only
+
+Show ONLY available options.
+
+----------------------------------------
+AVAILABILITY CONTROL
+----------------------------------------
+
+Add global toggle:
+technician_available = true/false
+
+If false:
+- disable form
+- disable payment
+- show message:
+"Al momento non ci sono tecnici disponibili."
+
+----------------------------------------
+FORM
+----------------------------------------
+
+Required:
+- Nome
+- Telefono
+- Indirizzo
+- Descrizione
+
+Optional (hidden unless selected):
+Checkbox: "Richiedo fattura"
+
+If checked:
+- Codice Fiscale
+- Partita IVA
+- Ragione Sociale
+- PEC / SDI
+
+----------------------------------------
+LEGAL TEXTS (MANDATORY)
+----------------------------------------
+
+Show before confirmation:
+
+"Conferma intervento con pre-autorizzazione.
+Nessun addebito immediato sulla carta."
+
+"L’importo copre uscita e diagnosi.
+Eventuali lavorazioni e materiali sono esclusi."
+
+"Tempi indicativi variabili in base a disponibilità e traffico."
+
+"Al termine dell’intervento:
+- puoi pagare con carta
+- oppure in contanti
+Se paghi in contanti, l’importo verrà sbloccato."
+
+----------------------------------------
+BUTTONS
+----------------------------------------
+
+Replace:
+"Paga ora"
+
+With:
+"Conferma intervento"
+
+Small text:
+"Nessun addebito immediato"
+
+----------------------------------------
+NOTIFICATIONS
+----------------------------------------
+
+Send to Telegram:
+- nome
+- telefono
+- indirizzo
+- urgenza
+- prezzo
+- fattura sì/no
+
+----------------------------------------
+ADMIN ACTIONS
+----------------------------------------
+
+Add backend endpoints:
+- capture payment
+- cancel authorization
+
+----------------------------------------
+GOAL
+----------------------------------------
+
+Real working system:
+- no fake payments
+- no immediate charge
+- safe, clear, and conversion-focused
+
+At the end explain:
+- how to capture payment
+- how to cancel authorization
+- where the code is implemented
+
+

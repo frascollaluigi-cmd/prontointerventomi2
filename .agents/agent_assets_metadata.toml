@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "gQJnZlEewfma-ZGUchO1w"
+uri = "file://artifacts/app-tecnico/assets/images/icon.png"
+type = "image"
+title = "lightning emergency app icon"
+
+[[generated]]
+id = "3Eo9j7BTyTLgLNZiTYCz4"
+uri = "file://artifacts/api-server/public/serv-elettricista.png"
+type = "image"
+title = "electrician fuse box"
+
+[[generated]]
+id = "MR2m5uzPO3rtnOEVYtYjb"
+uri = "file://artifacts/api-server/public/serv-citofono.png"
+type = "image"
+title = "video intercom door"
+
+[[generated]]
+id = "0-YnaWmv3wK9Zrf6QXlIE"
+uri = "file://artifacts/api-server/public/serv-antenna.png"
+type = "image"
+title = "antenna rooftop install"
+
+[[generated]]
+id = "Wy7oSDsxmjKBp23rR52fS"
+uri = "file://artifacts/api-server/public/serv-allarme.png"
+type = "image"
+title = "home alarm system"
+
+[[generated]]
+id = "6T4oBOQsiu1Ad_xIvzHsx"
+uri = "file://artifacts/api-server/public/serv-cancello.png"
+type = "image"
+title = "electric gate automation"

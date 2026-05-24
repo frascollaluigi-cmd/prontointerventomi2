@@ -1,0 +1,47 @@
+Si comunica che in data 2026-04-19T20:45:10+02:00 per mezzo del Registrar ARUBA-REG e' stato registrato il nome a dominio prontointerventomi.it.
+
+All'esito della registrazione risulta:
+
+Registrante: Elettrotech di Frascolla Luigi
+Indirizzo: Via C.na Bertacca, 2 - 20080 Bubbiano (MI)
+Nazione: IT
+Nazionalita': IT
+Telefono: +39.0290848555
+RegCode: 07242620966
+Email: frascolla.luigi@gmail.com
+EntityType: 3
+
+Il nome a dominio prontointerventomi.it e' stato posto nello stato [inactive, dnsHold].
+
+Risulta inoltre che il Registrante, relativamente al consenso, ha espresso le seguenti opzioni:
+- presa visione dell'informativa relativa al trattamento dei dati personali a fini di registrazione: SI
+- consenso al trattamento dei dati personali per la diffusione ed accessibilita' via Internet: NO
+
+e che ha reso le seguenti dichiarazioni e accettato le seguenti clausole:
+- di essere in possesso della cittadinanza o residente in uno dei paesi dello Spazio Economico Europeo (SEE), nello Stato del Vaticano, nella Repubblica di San Marino, nella Confederazione Svizzera o nel Regno Unito;
+
+- di essere a conoscenza e di accettare che la registrazione e gestione del nome a dominio sono soggette al "Regolamento di assegnazione e gestione dei nomi a dominio nel ccTLD .it" e al "Regolamento per la risoluzione delle dispute nel ccTLD .it" e loro successive modifiche;
+
+- di avere titolo all'uso e/o disponibilita' giuridica del nome a dominio richiesto e di non ledere, con tale richiesta di registrazione, diritti di terzi;
+
+- di essere a conoscenza che ai fini dell'inserimento dei dati personali nel database dei nomi a dominio assegnati, e alla loro eventuale diffusione e accessibilita' via Internet, occorre fornire espressamente il consenso barrando le apposite caselle sulla base dell'informativa che segue. Sul sito del Registro (http://www.nic.it) e' consultabile il documento "La politica del Registro .it sul database Whois";
+
+- di essere a conoscenza e di accettare che in caso di erronea o falsa dichiarazione nella presente richiesta, il Registro provvedera' alla immediata revoca del nome a dominio, salvo ogni piu' ampia azione legale. In tal caso la revoca non potra' in alcun modo dare luogo a richieste di risarcimento nei confronti del Registro;
+
+- di sollevare il Registro da qualsiasi responsabilita' derivante dalla assegnazione e dall'utilizzo del nome a dominio da parte del richiedente;
+
+- di accettare la giurisdizione italiana e le leggi dell'Ordinamento Statale Italiano.
+
+Si comunica altresi' che il Registrar sopra riportato e' il responsabile al trattamento dei dati e che il CNR, per tramite dell'Istituto di Informatica e Telematica del CNR, e' il titolare.
+Come specificato nel modulo di registrazione, i dati saranno resi conoscibili ai terzi per l'attivazione dell'opposizione e per la difesa dei diritti nonche' in adempimento ad obblighi di legge o regolamenti.
+Per qualsiasi informazione e chiarimento e' possibile contattare il Registrar referenziato nella registrazione i cui dati sono altresi' disponibili sul sito Web del Registro http://www.nic.it.
+
+Cordiali Saluti,
+
+Registro.it
+Istituto di Informatica e Telematica
+CNR - AREA DELLA RICERCA
+Via Giuseppe Moruzzi, 1 - I-56124 PISA
+Tel: +39 050 3139811
+Email: hostmaster@nic.it
+

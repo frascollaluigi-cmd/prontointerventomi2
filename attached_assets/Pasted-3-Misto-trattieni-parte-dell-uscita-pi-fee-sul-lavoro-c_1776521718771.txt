@@ -1,0 +1,371 @@
+3. Misto
+trattieni parte dell’uscita
+più fee sul lavoro chiuso
+
+Questo è il migliore.
+
+Esempio:
+
+il cliente paga €59
+al tecnico vanno €35
+tu trattieni €24
+in più trattieni il 10% del lavoro finale se il lavoro supera €150
+Modello MVP che ti consiglio
+
+Per partire subito:
+
+incassi tu l’uscita
+trattieni 25%–40% dell’uscita
+nessuna fee sul lavoro finale nella fase 1
+
+Perché?
+Perché il tecnico te lo accetta più facilmente.
+
+Come deve funzionare il matching geografico
+
+Qui devi essere molto pratico.
+
+Struttura dati del tecnico
+
+Ogni tecnico deve avere:
+
+categorie abilitate
+zone servite
+CAP serviti oppure raggio km
+orari disponibili
+tariffa uscita per fascia
+giorni festivi sì/no
+pronto intervento sì/no
+partita IVA / documenti / visura / assicurazione
+recensioni
+tempo medio di presa in carico
+Logica assegnazione
+
+Ordine di priorità:
+
+compatibilità categoria
+distanza
+tecnico online/disponibile
+tariffa compatibile
+rating
+tempo medio di accettazione
+penalizzazione per annulli e no-show
+Regola sana
+
+Non assegnare “al più economico”.
+Assegna al miglior mix tra:
+
+vicino
+affidabile
+veloce
+prezzo coerente
+
+Sennò distruggi il servizio e fai guerra al ribasso.
+
+Come evitare problemi e contestazioni
+
+Devi scrivere regole blindate da subito.
+
+Condizioni minime da mettere
+il costo di uscita è dovuto per la sola presa in carico e trasferimento del tecnico
+il costo di uscita non comprende riparazione, materiali, opere accessorie, ricerca guasto complessa, opere murarie, ripristini
+il preventivo finale viene formulato sul posto dal tecnico
+se il cliente non risponde, è assente o annulla fuori tempo, il costo di uscita resta acquisito
+se il tecnico non si presenta, l’uscita viene rimborsata integralmente
+la piattaforma è intermediaria tecnologica, salvo casi in cui il tecnico operi come partner diretto della rete
+tempi di arrivo indicativi, non garantiti in caso di traffico, meteo, ZTL, eventi straordinari
+
+Queste condizioni ti servono subito. Senza queste, ti riempi di contestazioni.
+
+Come automatizzarlo davvero
+Stack minimo
+
+Ti serve:
+
+sito web + web app
+pannello cliente
+pannello tecnico
+motore di matching
+pagamento online
+notifiche push / SMS / WhatsApp
+CRM ticket
+dashboard amministratore
+Automazioni base
+Automazione 1
+
+Quando arriva richiesta:
+
+geolocalizza indirizzo
+individua tecnici nel raggio
+manda richiesta ai primi 5 in ordine ranking
+Automazione 2
+
+Quando uno accetta:
+
+blocca la richiesta
+avvisa cliente
+invia scheda lavoro
+traccia ETA
+Automazione 3
+
+Quando intervento chiuso:
+
+chiedi recensione
+emetti documento / ricevuta / riepilogo
+aggiorna rating tecnico
+Automazione 4
+
+Se nessuno accetta:
+
+allarga raggio da 5 km a 10 km a 20 km
+aumenta fee proposta al tecnico
+avvisa cliente che la ricerca è in corso
+Cosa vendi davvero al cliente
+
+Tu non vendi “un artigiano”.
+
+Tu vendi:
+
+rapidità
+prezzo di uscita chiaro
+niente telefonate a vuoto
+tecnico selezionato
+pagamento sicuro
+tracciabilità
+recensioni vere
+supporto in caso di problema
+
+Questa è la promessa commerciale.
+
+Cosa vendi al tecnico
+
+Al tecnico vendi:
+
+lavori già filtrati
+cliente già pagante
+niente perdita di tempo sui curiosi
+zona controllata
+agenda riempita
+meno pubblicità inutile
+meno preventivi a vuoto
+
+Questo è il gancio vero.
+
+Piattaforme attuali come ProntoPro e Instapro ruotano molto intorno alla generazione del contatto/richiesta e al confronto tra professionisti; la tua differenza deve essere il cliente prequalificato e uscita già incassata.
+
+Fase 1 intelligente: non tutta Italia
+
+Errore da evitare:
+partire nazionale.
+
+Devi partire così:
+
+Fase 1
+
+Milano + hinterland
+solo:
+
+elettricista
+idraulico
+fabbro
+spurghi
+Fase 2
+
+Aggiungi:
+
+Monza Brianza
+Bergamo
+Torino
+Bologna
+Fase 3
+
+Aggiungi categorie non urgenti:
+
+imbianchino
+muratore leggero
+cartongessista
+falegname
+montaggi
+MVP minimo da lanciare in 30 giorni
+
+Per partire non ti serve il sistema perfetto.
+
+Ti basta questo:
+
+Frontend cliente
+selezione categoria
+indirizzo
+foto
+fascia oraria
+prezzo uscita
+pagamento
+Backend admin
+vedi richiesta
+vedi tecnici
+assegni automaticamente o manualmente
+Lato tecnico
+riceve SMS/WhatsApp
+clicca accetta
+chiama cliente
+conferma arrivo
+
+All’inizio puoi anche fare una semi-automazione:
+
+software che filtra la zona
+assegnazione finale semi-manuale da centrale
+
+Molto più realistico.
+
+Nome e posizionamento
+
+Il nome deve far capire subito:
+
+urgenza
+casa
+affidabilità
+velocità
+
+Esempi di direzione:
+
+ProntoCasa
+InterventoSubito
+CasaSOS
+TecnicoOra
+ProntoGuasto
+SOS Casa H24
+Conclusione chiara
+
+La struttura giusta è questa:
+
+piattaforma di pronto intervento domestico con uscita prepagata, matching geografico automatico e accettazione rapida del tecnico.
+
+Per partire bene ti consiglio:
+
+zona iniziale: Milano e provincia
+categorie iniziali: elettricista, idraulico, fabbro, spurghi
+modello economico: uscita pagata subito
+listino iniziale: €49–€89 standard, €69–€119 urgente, €109–€169 notte/festivo
+guadagno tuo: margine sull’uscita
+fase 1: semi-automatica
+differenziazione: non lead generation, ma intervento assegnato
+
+La mossa giusta adesso è trasformare questa idea in 3 cose operative:
+
+struttura del servizio
+listino ufficiale
+flusso tecnico-commerciale cliente/tecnico
+
+Nel prossimo passaggio ti preparo direttamente la bozza completa del progetto, con:
+
+funzionamento del servizio
+regole commerciali
+listino per categoria
+termini essenziali
+schema schermate del sito/app.
+Allora, senza girarci troppo intorno, io ho bisogno che mi crei la piattaforma, tutti i pagamenti devono arrivare a me, dev'essere tutto automatizzato. Arriva la richiesta dall'area geografica, la Splitty a chi è in zona. Quando viene fatto il preventivo sul posto, il pagamento passa da me e immediatamente, ricevuto il pagamento, viene pagato l'artigiano che ha eseguito l'intervento. Ovviamente ci dev'essere un delta di guadagno per me. Mi devi dire se sei in grado di costruirmi tutto perfettamente o se devo usare un agente di Antropic.
+
+Ti rispondo netto: posso impostarti architettura, logica operativa, database, flussi, schermate, regole di pricing e anche generare una base concreta di codice. Sto verificando il pezzo più delicato, cioè incasso tuo, split verso artigiano e pagamento dopo chiusura lavoro, così ti dico senza raccontarti favole cosa regge davvero in produzione.
+
+Ragionato per 15s
+
+Ti rispondo in modo netto:
+
+posso progettartela molto bene e posso anche costruirti una base seria di piattaforma, ma non sarebbe onesto dirti che da qui posso consegnarti “tutto perfettamente” già operativo in produzione, con deploy live, conti reali, KYC artigiani, pagamenti veri, fiscale, legale e assistenza continuativa senza un passaggio tecnico reale.
+
+Quindi:
+
+No, non ti serve per forza un agente di Anthropic.
+Sì, posso portarti molto avanti in modo concreto.
+No, non posso prometterti da solo il 100% “perfetto e finito” come se fossi una software house con accesso ai tuoi account, server, Stripe, dominio, compliance e test reali.
+
+Quello che vuoi fare è tecnicamente fattibile, e il flusso pagamenti che hai in mente regge. Con Stripe Connect, una piattaforma può incassare sul proprio account, trattenere la propria fee e trasferire il resto al professionista collegato; si possono usare sia destination charges sia separate charges and transfers, che sono proprio pensati per marketplace e piattaforme multi-venditore. Stripe documenta anche Instant Payouts per consentire pagamenti molto rapidi ai connected account, quando l’integrazione e l’idoneità lo permettono. L’Italia rientra tra i paesi supportati per separate charges and transfers.
+
+Tradotto sul tuo caso, il modello corretto è questo:
+
+il cliente paga a te:
+
+uscita/pronto intervento al momento della richiesta
+eventuale saldo o acconto dopo preventivo sul posto
+
+tu incassi sul conto piattaforma:
+
+trattieni il tuo margine
+giri automaticamente la quota artigiano
+puoi farlo subito oppure a lavoro confermato/chiuso
+in caso di contestazioni, rimborsi o chargeback, la responsabilità operativa va progettata bene perché nelle integrazioni Connect certe commissioni, dispute e negativi possono ricadere sulla piattaforma, a seconda del modello scelto.
+
+Quindi la parte difficile non è solo scrivere il software.
+La parte difficile è far stare in piedi insieme queste 6 cose:
+
+matching geografico
+assegnazione automatica artigiano
+pagamenti marketplace
+onboarding/KYC artigiani
+gestione contestazioni/rimborsi/no-show
+inquadramento legale-fiscale corretto
+
+Qui sta la verità:
+
+un modello AI da solo non sostituisce queste parti.
+Claude, io, o un altro modello possiamo aiutarti tantissimo a:
+
+definire l’architettura
+scrivere il codice
+strutturare il database
+creare backend, frontend e logiche di pagamento
+preparare i flussi operativi
+generare i testi legali iniziali da far validare
+impostare il pannello admin e il motore di dispatch
+
+Ma per andare online davvero ti serviranno comunque:
+
+account Stripe/platform configurato
+server e deploy
+test reali
+partita legale/fiscale del modello
+validazione termini e responsabilità
+eventuale developer per rifiniture e messa in produzione
+
+La risposta giusta quindi è questa:
+
+Se vuoi una verità pratica
+
+Io sono adatto per progettare e costruire con te l’MVP e anche una base tecnica seria.
+Non ti dico che posso magicamente sostituire tutto il lavoro di sviluppo, compliance e go-live reale.
+
+Se vuoi il mio giudizio operativo
+
+Non è una questione “me o Anthropic”.
+È una questione di metodo.
+
+Per fare una piattaforma come la tua ti serve:
+
+un modello forte per progettazione e generazione codice
+un’esecuzione tecnica ordinata
+test veri
+un setup pagamenti serio
+
+Su questa parte io posso essere il cervello di progettazione e produzione del materiale tecnico.
+Poi, se vuoi andare live bene, serve almeno un minimo di implementazione tecnica reale.
+
+Quello che posso fare davvero, da subito
+
+Posso costruirti adesso l’impianto completo dell’MVP:
+
+architettura piattaforma
+flusso cliente
+flusso artigiano
+flusso admin
+logica geografica
+algoritmo di assegnazione
+struttura database
+schema pagamenti con margine tuo
+pannello di controllo
+regole no-show / rimborso / contestazione
+base dei termini operativi
+roadmap sviluppo
+specifiche da dare a un developer
+e, se vuoi, anche il codice iniziale di backend e frontend
+
+Questa è una cosa concreta e utile.
+Ed è esattamente il tipo di lavoro che ti evita di farti spennare da chi ti vende “l’app” senza aver pensato al modello.

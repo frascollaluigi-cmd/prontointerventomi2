@@ -1,0 +1,147 @@
+Crea una landing page mobile-first per un servizio di pronto intervento elettrico a Milano chiamato:
+
+"ProntoInterventoMi – Elettrotech"
+
+OBIETTIVO:
+Massima conversione. L’utente deve chiamare o cliccare “Blocca tecnico”.
+
+---
+
+STRUTTURA PAGINA:
+
+1) HEADER
+- Logo a sinistra
+- Bottone rosso a destra: “RICHIEDI INTERVENTO”
+
+---
+
+2) HERO (prima schermata)
+
+Titolo grande:
+“Elettricista urgente a Milano in 90 minuti”
+
+Sottotitolo:
+“Guasti elettrici, blackout, salvavita, prese, cancelli”
+
+Sotto (trust immediato):
+“✔ Tecnico verificato   ✔ Arrivo rapido   ✔ Paghi solo dopo”
+
+---
+
+3) BOTTONI PRINCIPALI (CTA)
+
+Bottone 1 (più grande, evidenziato):
+“URGENZA 90 MINUTI – €200”
+
+Bottone 2:
+“BLOCCA TECNICO ORA – €120”
+
+Sotto i bottoni (fondamentale):
+“Pagamento solo autorizzato. Nessun addebito immediato.”
+“Paghi solo dopo l’intervento.”
+
+---
+
+4) GARANZIA
+
+Testo evidenziato:
+“Se non risolviamo, non paghi l’intervento.”
+
+---
+
+5) PROVA SOCIALE
+
+“⭐ 4.8 su Google”
+“+500 interventi a Milano”
+“Tecnici verificati”
+
+---
+
+6) CTA SECONDARIA
+
+Bottone verde:
+“Chiama ora”
+
+Numero cliccabile
+
+---
+
+STILE:
+- Mobile-first
+- Bottoni grandi
+- Colori:
+  - Arancione = azione
+  - Verde = fiducia
+- Design tipo app (stile Uber)
+
+---
+
+FUNZIONE PAGAMENTO (STRIPE)
+
+Quando utente clicca su:
+- €120 o €200
+
+Creare PaymentIntent con:
+
+capture_method: "manual"
+
+Esempio:
+
+const paymentIntent = await stripe.paymentIntents.create({
+  amount: 12000, // o 20000
+  currency: "eur",
+  capture_method: "manual",
+});
+
+---
+
+FLUSSO:
+
+1. Cliente clicca “Blocca tecnico”
+2. Inserisce carta
+3. Stripe AUTORIZZA (non incassa)
+4. Salva ID pagamento
+
+---
+
+PANNELLO ADMIN (semplice)
+
+Lista interventi con:
+- Nome cliente
+- Telefono
+- Importo
+- Stato
+
+Bottoni:
+- “Cattura pagamento”
+- “Annulla pagamento”
+
+---
+
+FUNZIONI ADMIN:
+
+Cattura:
+stripe.paymentIntents.capture(paymentIntentId)
+
+Annulla:
+stripe.paymentIntents.cancel(paymentIntentId)
+
+---
+
+NOTE IMPORTANTI:
+
+- NON usare “Paga ora”
+- Scrivere chiaramente che è pre-autorizzazione
+- Ottimizzare per conversione, non per estetica
+- Tutto deve essere veloce e semplice
+
+---
+
+OUTPUT:
+Codice funzionante pronto su Replit:
+- Frontend
+- Backend
+- Stripe integrato
+- Mobile responsive
+
+

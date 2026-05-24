@@ -1,0 +1,128 @@
+Modifica la homepage di Pronto Intervento Milano per renderla più chiara, urgente e orientata alla conversione.
+
+OBIETTIVO:
+il cliente deve capire subito che può bloccare un tecnico senza addebito immediato.
+
+HERO PRINCIPALE:
+
+Titolo:
+Elettricista urgente a Milano in 90 minuti
+
+Sottotitolo:
+Tecnico disponibile per guasti elettrici, blackout, salvavita che scatta, citofoni, cancelli, allarmi e antenne.
+
+Badge sopra o sotto il titolo:
+Milano e provincia • Disponibilità rapida • Nessun addebito immediato
+
+Testo fiducia:
+La carta viene solo pre-autorizzata come garanzia. L’importo verrà incassato solo dopo conferma dell’intervento.
+
+BOTTONI PRINCIPALI:
+
+Bottone 1:
+BLOCCA TECNICO ORA (€120)
+
+Bottone 2:
+URGENZA 90 MINUTI (€200)
+
+Sotto i bottoni inserire:
+Pagamento sicuro con carta • Nessun addebito immediato • Autorizzazione annullabile
+
+SEZIONE PREZZI:
+
+Titolo:
+Scegli il tipo di intervento
+
+Card 1:
+Intervento standard
+€120
+Uscita tecnico e prima verifica
+Ideale per guasti non immediati
+Bottone: BLOCCA TECNICO STANDARD
+
+Card 2:
+Intervento urgente entro 90 minuti
+€200
+Priorità massima su Milano
+Ideale per blackout, salvavita che scatta, impianto fermo
+Bottone: BLOCCA TECNICO URGENTE
+
+Nota prezzi:
+L’importo copre uscita e prima verifica. Eventuali lavorazioni, materiali o riparazioni aggiuntive verranno preventivate prima dell’esecuzione.
+
+SEZIONE COME FUNZIONA:
+
+Titolo:
+Come funziona
+
+1. Scegli il servizio
+Standard o urgente entro 90 minuti.
+
+2. Blocchi il tecnico con carta
+Nessun addebito immediato: viene solo autorizzato l’importo.
+
+3. Ricevi conferma
+Il tecnico viene assegnato e ti contatta.
+
+4. Intervento sul posto
+Dopo la verifica, decidi se procedere con eventuali lavori aggiuntivi.
+
+5. Incasso solo a intervento confermato
+L’importo viene incassato solo dopo conferma. In caso contrario, l’autorizzazione viene annullata.
+
+SEZIONE SERVIZI:
+
+Titolo:
+Interventi disponibili
+
+- Guasti elettrici
+- Blackout
+- Salvavita che scatta
+- Prese e interruttori
+- Quadri elettrici
+- Citofoni e videocitofoni
+- Cancelli automatici
+- Allarmi
+- Antenne TV
+- Linee dedicate e controlli impianto
+
+SEZIONE FIDUCIA:
+
+Titolo:
+Tecnico reale, non call center
+
+Testo:
+Intervento diretto su Milano e provincia. Prima verifica chiara, costi comunicati prima di procedere e nessuna sorpresa sull’addebito.
+
+Punti fiducia:
+- Pagamento sicuro con Stripe
+- Nessun incasso automatico immediato
+- Autorizzazione annullabile dal pannello admin
+- Contatto diretto con il tecnico
+- Prezzi chiari prima dell’intervento
+
+SEZIONE ZONE:
+
+Titolo:
+Zone servite
+
+Testo:
+Milano città e provincia: centro, Navigli, Porta Romana, Città Studi, Lambrate, San Siro, Baggio, Lorenteggio, Barona, Bicocca, Niguarda, Sesto San Giovanni, Corsico, Assago, Rozzano, Trezzano, Buccinasco e comuni limitrofi.
+
+FOOTER:
+
+Testo:
+Pronto Intervento Milano – servizio tecnico per impianti elettrici e tecnologici.
+
+Note legali:
+Il servizio non prevede addebito immediato. La carta viene pre-autorizzata a garanzia della richiesta. Eventuali materiali, ricambi, opere murarie, piattaforme, parcheggi, Area C, interventi fuori orario o lavorazioni non comprese nell’uscita saranno preventivati separatamente.
+
+ISTRUZIONI TECNICHE:
+
+- Sostituisci tutti i testi “PAGA ORA” con “BLOCCA TECNICO ORA”.
+- Non modificare la logica Stripe già configurata.
+- I bottoni devono continuare ad aprire il pagamento Stripe con pre-autorizzazione manuale.
+- Evidenzia bene “Nessun addebito immediato”.
+- Layout mobile-first.
+- Stile professionale, urgente, chiaro.
+- Evitare testi troppo generici.

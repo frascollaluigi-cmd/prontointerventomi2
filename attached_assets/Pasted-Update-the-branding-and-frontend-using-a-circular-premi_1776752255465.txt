@@ -1,0 +1,96 @@
+Update the branding and frontend using a circular premium logo identical in style to the reference provided.
+
+----------------------------------------
+1) LOGO DESIGN (VERY IMPORTANT)
+----------------------------------------
+
+Create a circular logo with the following structure:
+
+- Shape: perfect circle
+- Style: modern, corporate, clean, high-end
+- The logo must look like a professional brand, not a startup or generic service
+
+BACKGROUND:
+- Use a light background (not dark)
+- Insert a faded, semi-transparent image of Milan city center
+- The Duomo of Milan must be clearly recognizable in the background
+- Apply blur + low opacity so text remains fully readable
+
+MAIN TEXT (CENTER):
+- Large bold text: "PIM"
+- P and I: dark blue / navy
+- M: strong red
+- Font: modern, geometric, bold
+
+SECONDARY TEXT (UNDER PIM):
+PRONTO INTERVENTO MILANO
+
+- "PRONTO" → dark
+- "INTERVENTO" → red
+- "MILANO" → dark
+- Clean spacing, uppercase
+
+BOTTOM TEXT:
+ELETTROTECH
+
+- Smaller, elegant font
+- Centered
+- Color: dark grey or navy
+
+GRAPHIC ELEMENTS:
+- Thin circular border
+- Subtle curved lines (top and bottom) to give movement
+- Small minimal electric icon allowed at the bottom (very subtle, not cartoonish)
+
+IMPORTANT:
+- No flashy effects
+- No heavy shadows
+- No cheap gradients
+- Must look premium and trustworthy
+
+----------------------------------------
+2) LOGO INTEGRATION (FRONTEND)
+----------------------------------------
+
+Replace the current logo with this new circular logo.
+
+HEADER:
+- Place logo on the left
+- Size: clearly visible but not oversized
+- Keep spacing clean
+
+HERO SECTION:
+- Add a larger version of the logo above or near the headline
+- It must be visible immediately when opening the page
+
+----------------------------------------
+3) BACKGROUND UPDATE (CRITICAL)
+----------------------------------------
+
+The current background is too dark.
+
+Replace with:
+- Light gradient (white / light grey / very light blue)
+- Keep contrast strong for readability
+- Maintain a premium and clean look
+
+----------------------------------------
+4) FINAL GOAL
+----------------------------------------
+
+The website must feel:
+
+- Professional
+- Trustworthy
+- Local (Milano identity with Duomo)
+- High conversion (people must want to call immediately)
+
+Avoid anything that looks:
+- Cheap
+- Overdesigned
+- Too dark or aggressive
+
+----------------------------------------
+
+
+

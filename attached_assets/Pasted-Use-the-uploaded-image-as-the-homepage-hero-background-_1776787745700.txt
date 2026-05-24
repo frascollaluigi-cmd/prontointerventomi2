@@ -1,0 +1,82 @@
+Use the uploaded image as the homepage hero background.
+
+IMPORTANT:
+Do not generate a new image.
+Do not replace it with stock graphics.
+Use exactly the uploaded image file as the hero background.
+
+Image file:
+public/hero-bg.png
+
+CRITICAL:
+Keep all existing homepage functionality and structure.
+Do NOT remove:
+- phone number
+- call button
+- request intervention button
+- payment button
+- form section
+- pricing options
+- Stripe integration
+- Telegram flow
+- current CTA logic
+
+This task is only to improve the visual hero background, not to remove or replace the existing working page structure.
+
+DESIGN GOAL:
+Create a premium, trustworthy, conversion-focused hero section for an emergency electrician service in Milan.
+
+BACKGROUND RULES:
+- Use the uploaded image only in the hero section
+- Keep the handshake scene visible on the right side
+- Keep the left side cleaner for text readability
+- Do not crop the technician’s face
+- Do not crop the handshake
+- Add a dark overlay between 45% and 60% to make text readable
+- Apply only a slight blur if needed
+- The image must remain elegant, subtle, and professional
+- Do not make the page too dark
+- Do not make the image too sharp or distracting
+
+LAYOUT:
+- Put the text block on the left
+- Keep the handshake visible on the right
+- Keep the CTA buttons strong and readable
+- Preserve a premium and clean appearance
+
+TEXT TO KEEP CLEARLY VISIBLE:
+Title:
+Elettricista urgente a Milano in 90 minuti
+
+Subtitle:
+Intervento rapido • Prezzo chiaro • Operativi H24 • Milano e provincia
+
+BUTTONS TO KEEP:
+- Richiedi intervento ora
+- Chiama ora
+- Paga ora
+
+ALSO KEEP VISIBLE:
+- phone number in header
+- request form below
+- pricing cards / pricing logic
+- payment CTA
+- mobile sticky bar if already present
+
+MOBILE VERSION:
+- Keep the same uploaded image
+- Simplify background composition for mobile if needed
+- Prioritize text readability and CTA visibility
+- Keep visual noise low
+- If needed, reposition background so handshake remains visible but secondary
+
+DO NOT:
+- regenerate the image
+- use a different image
+- make the hero too busy
+- reduce readability
+- remove the current conversion structure
+- remove working buttons or form
+
+FINAL RESULT:
+The homepage must look more premium, more human, and more trustworthy, while keeping all current buttons, phone number, form, pricing, and conversion structure.

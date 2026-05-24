@@ -1,0 +1,75 @@
+
+luigi frascolla <frascolla.luigi@gmail.com>
+22:45 (0 minuti fa)
+a me
+
+Fix the pricing bug immediately.
+
+Current expected behavior:
+Today is April 25 in Italy.
+April 25 is an Italian public holiday.
+At 22:42 Europe/Rome time, the ONLY selectable tariff must be:
+
+SERALE / FESTIVI — €200
+
+The €70 and €120 options must NOT be selectable.
+
+Technical requirements:
+
+1. Use Europe/Rome timezone only.
+Do not use server timezone.
+Do not use UTC.
+
+2. On page load, calculate:
+- current Italian date
+- current Italian time
+- current Italian weekday
+- whether today is an Italian public holiday
+
+3. Italian holidays must include at least:
+- 01/01 Capodanno
+- 06/01 Epifania
+- 25/04 Festa della Liberazione
+- 01/05 Festa del Lavoro
+- 02/06 Festa della Repubblica
+- 15/08 Ferragosto
+- 01/11 Ognissanti
+- 08/12 Immacolata
+- 25/12 Natale
+- 26/12 Santo Stefano
+
+4. Pricing rules:
+
+If today is Saturday, Sunday, or an Italian public holiday:
+- show only SERALE / FESTIVI €200
+- automatically select €200
+- disable or hide €70 and €120
+
+If Monday to Friday AND not public holiday AND time is between 08:00 and 17:00:
+- show STANDARD €70
+- show URGENTE €120
+- automatically select €70 by default
+
+If Monday to Friday AND not public holiday AND time is before 08:00 or after 17:00:
+- show only SERALE / FESTIVI €200
+- automatically select €200
+- disable or hide €70 and €120
+
+5. Important bug fix:
+When the available tariff changes, reset the selected tariff automatically.
+Do not keep the previous selected tariff in state.
+Do not keep €120 selected if it is no longer valid.
+
+6. Validation:
+Before allowing payment or pre-authorization, check again that the selected tariff is valid for the current Europe/Rome date/time.
+If invalid, block payment and show:
+"Tariffa non disponibile per questa fascia oraria o giorno."
+
+7. Test case:
+For Europe/Rome date/time April 25 at 22:42, the UI must show only:
+SERALE / FESTIVI — €200
+
+No €120 must be selected.
+No €70 must be selectable.
+
+
