@@ -5,7 +5,7 @@
     "rootDir": "src",
     "types": ["node"]
     "noImplicitAny": false,
-    "noImplicitReturns":falses,
+    "noImplicitReturns":false,
   },
   "include": ["src"],
   "references": [
